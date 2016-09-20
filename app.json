@@ -1,0 +1,11 @@
+{
+  "name": "Plomino",
+  "description": "A ready-to-use Plomino install",
+  "repository": "https://github.com/plomino/heroku",  "env": {
+    "BUILDPACK_URL": "https://github.com/plone/heroku-buildpack-plone#5.0.5"
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "keywords": ["plone", "plomino"]
+}
